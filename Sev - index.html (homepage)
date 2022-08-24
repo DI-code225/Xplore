@@ -153,14 +153,14 @@
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-activity fa-4x text-primary mb-4"></i>
+                        <i class="fa fa-calendar fa-4x text-primary mb-4"></i>
                         <p class="mb-2">Total Activities</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">52</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-cart-plus fa-4x text-primary mb-4"></i>
+                        <i class="fa fa-thumbs-up fa-4x text-primary mb-4"></i>
                         <p class="mb-2">Experiences Booked</p>
                         <h1 class="display-5 mb-0" data-toggle="counter-up">6400</h1>
                     </div>
@@ -273,7 +273,7 @@
                         <div class="text-center p-4">
                             <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">$200,000 - $600,000</div>
                             <h4 class="mb-3">Meet the Martians!</h4>
-                            <span>Have you ever wished you could get closer and really get to know the people of destinations you visit?  Well, we’ve come up with a way where you can explore different types of food, culture and natural sights during your vacation, as well as live with locals in various parts of Indonesia. From participating in  traditional farming activities to being taught how to create your own piece of art, you will have the chance to get up close with the local inhabitants and feel their genuine warmth and welcome. Each village has its own speciality and craftsmanship, so do pick the one that you feel more related to.</span>
+                            <span>Have you ever wished you could get closer and really get to know the people of destinations you visit?  Well, we’ve come up with a way where you can explore different types of food, culture and natural sights during your vacation, as well as live with locals in various parts of Mars. From participating in  traditional farming activities to being taught how to create your own piece of art, you will have the chance to get up close with the local inhabitants and feel their genuine warmth and welcome. Each village has its own speciality and craftsmanship, so do pick the one that you feel more related to.</span>
                         </div>
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/product - 3.jpg" alt="">
@@ -301,7 +301,7 @@
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-bread-slice text-white"></i>
+                                    <i class="fa fa-users text-white"></i>
                                 </div>
                                 <h5 class="mb-0">Experienced Professional Tour Guides</h5>
                             </div>
@@ -319,7 +319,7 @@
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-cart-plus text-white"></i>
+                                    <i class="fa fa-trophy text-white"></i>
                                 </div>
                                 <h5 class="mb-0">Years of Experience</h5>
                             </div>
@@ -328,7 +328,7 @@
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                             <div class="d-flex align-items-center mb-3">
                                 <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-truck text-white"></i>
+                                    <i class="fa fa-plane text-white"></i>
                                 </div>
                                 <h5 class="mb-0">New destinations</h5>
                             </div>
@@ -499,7 +499,7 @@
             <div class="bg-primary text-light rounded-top p-5 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <h1 class="display-4 text-light mb-0">Subscribe Our Newsletter</h1>
+                        <h1 class="display-4 text-light mb-0">Subscribe To Our Newsletter</h1>
                     </div>
                     <div class="col-md-6 text-md-end">
                         <div class="position-relative">
