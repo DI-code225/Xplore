@@ -10,7 +10,7 @@ Amanda
 Eyasmin
 Dinara 
 Teagan
-Sev
+Sevim
 
 
 Tools used: 
