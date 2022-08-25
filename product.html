@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Xplore Destinations</title>
+    <title>Baker - Bakery Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -29,33 +29,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <!-- <style>
-        earthvideos {
-            height: 0;
-            position: relative;
-            padding-bottom: 56.25%; 
-            padding-top: 35px;  
-            overflow: hidden;
-            display: flex;
-        }
-
-        .video1 iframe {
-            flex: 1;
-            position: absolute;
-            top: 0; 
-            left: 0; 
-            width: 100%; 
-            height: 100%;
-        }
-
-        .col-4 {
-            min-height: 100px;
-            min-width: 100px;
-            max-height: 200px;
-            max-width: 200px;
-            display: inherit;
-        }
-    </style> -->
 </head>
 
 <body>
@@ -66,7 +39,7 @@
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start should we remove? -->
+    <!-- Topbar Start -->
     <!-- <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
@@ -94,7 +67,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0">Xplore</h1>
+            <h1 class="text-primary m-0">Baker</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -102,13 +75,9 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link">Home</a>
-                <!-- This About removed from navbar but will be listed in the footer -->
                 <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
-                <!-- used to be named service.html and Services, renamed destinations.html and Destinations -->
-                <a href="service.html" class="nav-item nav-link active">Destinations</a>
-                <!-- used to be named product.html and Products, to be renamed experiences.html and Experiences -->
-                <a href="product.html" class="nav-item nav-link">Experiences</a> 
-                <!-- dropdown and Pages button not needed -->
+                <a href="destinations.html" class="nav-item nav-link">Destinations</a>
+                <a href="experiences.html" class="nav-item nav-link active">Experiences</a>
                 <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
@@ -125,7 +94,7 @@
                 </div>
                 <div class="ps-3">
                     <small class="text-primary mb-0">Call Us</small>
-                    <p class="text-light fs-5 mb-0">+44 (0)20 123 4567</p>
+                    <p class="text-light fs-5 mb-0">+012 345 6789</p>
                 </div>
             </div>
         </div>
@@ -136,135 +105,26 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center pt-5 pb-3">
-            <h1 class="display-4 text-white animated slideInDown mb-3">Destinations</h1>
-            <!-- breadcrumb start -->
-            <!-- <nav aria-label="breadcrumb animated slideInDown">
+            <h1 class="display-4 text-white animated slideInDown mb-3">Experiences</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Services</li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Experiences</li>
                 </ol>
-            </nav> -->
-            <!-- breadcrumb ends -->
+            </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
 
-    <!-- Facts Start don't think we need this as home page has it -->
-    <!-- <div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">Years Experience</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">20</h1>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-users fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">Skilled Professionals</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">5</h1>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-bread-slice fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">Travel packages</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">135</h1>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="fact-item bg-light rounded text-center h-100 p-5">
-                        <i class="fa fa-cart-plus fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">5 star ratings</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">9357</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Facts End -->
-    <br>
-
-    <div class="earthvideos">
-        <div class="video1"><iframe width="560" height="315" src="https://www.youtube.com/embed/Y1qQZbTF8iQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    </div>
-
-    <br>
-    <!-- Service Start -->
-    <div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <!-- <p class="text-primary text-uppercase mb-2">// Our Services</p> -->
-                    <h1 class="display-6 mb-4">All journeys have secret destinations of which the traveler is unaware...</h1>
-                    <p class="mb-5">The world is a book and those who do not travel read only one page. 
-                    Traveling adds new perspectives and dimensions to our lives. It exposes to so many new ideas and ways of life that are much different than what we grew up with. 
-                    Whether it's your lifelong story or a scrapbook, travel experiences add many pages to it. It would be our pleasure to help you create your stories.</p>
-                    <div class="row gy-5 gx-4">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-bread-slice text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Award winning</h5>
-                            </div>
-                            <span>We take great pride in our work, our customers' happiness is our priority. Choose from a selection of experiences from breakfast in bed to luxury upgrades with views guaranteed!</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-birthday-cake text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Tailored services</h5>
-                            </div>
-                            <span>We can help you plan out-of-this-world weddings, birthdays, proposals, anniversaries, you name it! We arrange it all, you can sit back and relax.</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-cart-plus text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Online orders</h5>
-                            </div>
-                            <span>Forgot something? From groceries and pharmacy items they are one tap away. Planet to planet deliveries at any time.</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-truck text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Door-to-door</h5>
-                            </div>
-                            <span>All transport is included, from your home to your destination!</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row img-twice position-relative h-100">
-                        <div class="col-6">
-                            <img class="img-fluid rounded" src="img/blueplanet.jpg" alt="">
-                        </div>
-                        <div class="col-6 align-self-end">
-                            <img class="img-fluid rounded" src="img/moon.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
     <!-- Product Start -->
     <div class="container-xxl bg-light my-6 py-6 pt-0" style="margin: 12rem 0;">
         <div class="container">
-            <!-- <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
-                        <h1 class="display-4 text-light mb-0">The Best Bakery In Your City</h1>
+                        <h1 class="display-4 text-light mb-0">Once in a Lifetime Experiences!</h1>
                     </div>
                     <div class="col-lg-6 text-lg-end">
                         <div class="d-inline-flex align-items-center text-start">
@@ -276,21 +136,21 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary mb-2">Let us inspire you...</p>
-                <h1 class="display-6 mb-4">Your next adventure</h1>
+                <p class="text-primary text-uppercase mb-2">// Experiences</p>
+                <h1 class="display-6 mb-4">Check out our experiences</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4">
-                            <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">From £150</div>
-                            <h3 class="mb-3">Jupiter</h3>
-                            <span>Luxury spa packages, private lounge and alien theatre show. Famous Jupiterian sea delicacies.</span>
+                            <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">starting from £1500</div>
+                            <h3 class="mb-3">Dune Surfing On Venus. </h3>
+                            <span>An adventure like no other!</span>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/cabin.jpeg" alt="">
+                            <img class="img-fluid" src="img/venus.jpg" alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
                             </div>
@@ -300,12 +160,12 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4">
-                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">From £99</div>
-                            <h3 class="mb-3">Mars</h3>
-                            <span>Martian hospitality is well known. Relax in this beautiful setting with 3 different resorts to choose from, or live like a local in a desert cabin with your own car.</span>
+                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">Special Offer £99 per adult</div>
+                            <h3 class="mb-3">Mars Walking Tour</h3>
+                            <span>Take a trip and see all that Mars has to offer</span>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/desertsky.jpg" alt="">
+                            <img class="img-fluid" src="img/mars.jpg" alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
                             </div>
@@ -315,12 +175,12 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4">
-                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">From £1500</div>
-                            <h4 class="mb-3">Neptune</h4>
-                            <span>Wash away your blues and immerse yourself in Neptune's nature. Very family friendly with plenty of activities for the thrill seekers!</span>
+                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">starting from £999</div>
+                            <h4 class="mb-3">Count the stars</h4>
+                            <span>Take a plunge into the galaxy and see how many stars you can count</span>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/rock2.jpg" alt="">
+                            <img class="img-fluid" src="img/stars.jpg" alt="">
                             <div class="product-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
                             </div>
@@ -330,24 +190,8 @@
             </div>
         </div>
     </div>
-
-    <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="row g-4 align-items-center">
-            <div class="col-lg-6">
-                <h1 class="display-4 text-light mb-0">Let us help you customise your holidays</h1>
-            </div>
-            <div class="col-lg-6 text-lg-end">
-                <div class="d-inline-flex align-items-center text-start">
-                    <i class="fa fa-phone-alt fa-4x flex-shrink-0"></i>
-                    <div class="ms-4">
-                        <p class="fs-5 fw-bold mb-0">Call Us</p>
-                        <p class="fs-1 fw-bold mb-0">+44 (0)20 123 4567</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Product End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -355,52 +199,52 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Office Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>CFG Castle, Earth</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+44 (0)20 123 4567</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@xplore.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://twitter.com/NASA"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/NASA"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.youtube.com/c/NASA/videos"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href="https://www.linkedin.com/in/eyasminbasher/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <!-- <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Destinations</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a> -->
+                    <a class="btn btn-link" href="">Support</a>
                 </div>
-                <!-- <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Quick Links</h4>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Our Destinations</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a>
-                </div> -->
+                </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Photo Gallery</h4>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/baloon.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/venus.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/jupiter.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/mars.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/rock1.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/stars.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/saturn.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/stock1.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/mall.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/stock2.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/space.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/stock3.jpg" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -415,7 +259,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a href="#">Xplore 2022</a>, All Right Reserved.
+                    &copy; <a href="#">Your Site Name</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
