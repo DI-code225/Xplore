@@ -1,8 +1,8 @@
 # Xplore
 CFG Webdev Project
 
-We all love to travel, don't we? But have you ever consideredHave you ever thought of travelling to Space?
-At Xplore, we tailor etraordinary extranerraneal expereinces to create memories of a lifetime. 
+We all love to travel, don't we? But have you ever thought of travelling to Space?
+At Xplore, we tailor extraordinary experiences to create memories of a lifetime. 
 
 
 Project team: 
